@@ -5,7 +5,8 @@ generator client {
 generator erd {
   provider = "prisma-erd-generator"
   output   = "./ERD.svg"
-  erdDebug = true
+  erdDebug = false
+  theme    = "dark"
 }
 
 datasource db {
