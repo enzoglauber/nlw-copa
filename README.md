@@ -15,3 +15,8 @@ server
 
 web
   npx create-next-app@latest --use-npm
+
+mobile
+  npm i g expo-cli
+  npx create-expo-app nlw-copa
+  npx expo start
