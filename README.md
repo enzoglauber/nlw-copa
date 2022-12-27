@@ -12,3 +12,6 @@ server
   npx prisma migrate dev
   npm i prisma-erd-generator @mermaid-js/mermaid-cli -D
   npx prisma generate
+
+web
+  npx create-next-app@latest --use-npm
