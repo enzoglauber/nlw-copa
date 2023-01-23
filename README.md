@@ -17,6 +17,11 @@ web
   npx create-next-app@latest --use-npm
 
 mobile
-  npm i g expo-cli
+  npm i -g expo-cli
   npx create-expo-app nlw-copa
-  npx expo start
+  expo start
+
+  npm i native-base
+  expo install react-native-svg
+  expo install react-native-safe-area-context@3.3.2
+  npx expo install expo-font @expo-google-fonts/roboto
