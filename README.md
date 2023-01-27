@@ -11,10 +11,13 @@ server
   npx prisma init --datasource-provider SQLite
   npx prisma migrate dev
   npm i prisma-erd-generator @mermaid-js/mermaid-cli -D
-  npx prisma generate
+  npm run prisma generate
+  npm run prisma db seed
 
 web
   npx create-next-app@latest --use-npm
+  npm i -D tailwindcss postcss autoprefixer
+  npx tailwindcss init -p 
 
 mobile
   npm i -g expo-cli

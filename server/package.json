@@ -5,7 +5,12 @@
   "main": "index.js",
   "scripts": {
     "start": "tsx watch src/server.ts",
-    "gen": "npx prisma generate"
+    "prisma": "npx prisma",
+    "generate": "npx prisma generate",
+    "seed": "npx prisma db seed"
+  },
+  "prisma": {
+    "seed": "tsx prisma/seed.ts"
   },
   "keywords": [],
   "author": "",
@@ -20,6 +25,8 @@
   "dependencies": {
     "@fastify/cors": "^8.2.0",
     "@prisma/client": "^4.8.0",
-    "fastify": "^4.10.2"
+    "fastify": "^4.10.2",
+    "short-unique-id": "^4.4.4",
+    "zod": "^3.20.2"
   }
 }
