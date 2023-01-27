@@ -28,3 +28,4 @@ mobile
   expo install react-native-svg
   expo install react-native-safe-area-context@3.3.2
   npx expo install expo-font @expo-google-fonts/roboto
+  npm i react-native-svg-transformer
