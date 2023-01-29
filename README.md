@@ -29,3 +29,14 @@ mobile
   expo install react-native-safe-area-context@3.3.2
   npx expo install expo-font @expo-google-fonts/roboto
   npm i react-native-svg-transformer
+  npm i @react-navigation/native
+  
+  npx expo install expo-auth-session expo-random
+  npx expo install expo-web-browser 
+
+  npm i --save phosphor-react-native
+
+  https://docs.expo.dev/versions/latest/sdk/auth-session/#what-authexpoio-does-for-you
+  https://auth.expo.io/@your-username/your-app-slug
+  @enzoglauber
+  expo login

@@ -3,7 +3,7 @@ import { useFonts } from '@expo-google-fonts/roboto/useFonts';
 import { NativeBaseProvider, StatusBar } from "native-base";
 import { Loading } from './src/components/Loading';
 import { AuthContextProvider } from './src/contexts/AuthContext';
-import { SignIn } from './src/screens/SignIn';
+import { Pools } from './src/screens/Pools';
 import { THEME } from './src/styles/theme';
 
 export default function App() {
@@ -19,7 +19,7 @@ export default function App() {
         
         {
           fontsLoaded
-          ? <SignIn />
+          ? <Pools />
           : <Loading />
         }
       </AuthContextProvider>
