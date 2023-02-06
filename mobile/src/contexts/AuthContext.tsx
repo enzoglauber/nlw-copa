@@ -39,6 +39,7 @@ export function AuthContextProvider({children}: AuthProviderProps) {
   async function signIn () {
     try {
       setIsUserLoading(true);
+      console.log('response===>>', response)
       await promptAsync();
     } catch (error) {
       console.log(error)
