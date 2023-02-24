@@ -1,7 +1,9 @@
-import { useContext } from "react";
-import { AuthContext, AuthContextDataProps } from "../contexts/AuthContext";
+import { useContext } from 'react';
 
-export function useAuth (): AuthContextDataProps {
+import { AuthContext, IAuthContextDataProps } from '../contexts/AuthContext';
+
+export function useAuth(): IAuthContextDataProps {
   const context = useContext(AuthContext);
+
   return context;
 }
