@@ -1,12 +1,13 @@
 <p align="center">
-   <img src="https://raw.githubusercontent.com/enzoglauber/nlw-copa/8ba02fc914bba835e2e8c90358957a0e01a47480/assets/logo.svg" alt="NLW Copa" width="180"/>
+   <img src="https://raw.githubusercontent.com/enzoglauber/nlw-copa/master/assets/logo.svg" alt="NLW Copa" width="180"/>
 </p>
 
 <p align="center">
    <a href="https://www.linkedin.com/in/enzoglauber/">
-      <img alt="Henrique Tavares" src="https://img.shields.io/badge/-Henrique Tavares-f7dd43?style=flat&logo=Linkedin&logoColor=white" />
+      <img alt="Enzo Glauber" src="https://avatars.githubusercontent.com/u/5755754?s=96&v=4" />
    </a>
- <img alt="Repository size" src="https://img.shields.io/github/repo-size/enzoglauber/nlw-copa?color=f7dd43">
+   <br>
+   <img alt="Repository size" src="https://img.shields.io/github/repo-size/enzoglauber/nlw-copa?color=f7dd43">
 
   <a aria-label="Last Commit" href="https://github.com/enzoglauber/nlw-copa/commits/master">
     <img alt="Last commit on GitHub" src="https://img.shields.io/github/last-commit/enzoglauber/nlw-copa?color=f7dd43">
@@ -30,11 +31,10 @@
 # :framed_picture: Preview
 
 <p align="center">
-    <img alt="Mobile 1" src="https://raw.githubusercontent.com/enzoglauber/nlw-copa/main/mobile/src/assets/previews/Screenshot%202022-11-28%20at%2009.08.34.png" width="200px" />
-    <img alt="Mobile 2" src="https://raw.githubusercontent.com/enzoglauber/nlw-copa/main/mobile/src/assets/previews/Screenshot%202022-11-28%20at%2009.08.46.png" width="200px" />
-    <img alt="Mobile 3" src="https://raw.githubusercontent.com/enzoglauber/nlw-copa/main/mobile/src/assets/previews/Screenshot%202022-11-28%20at%2009.09.21.png" width="200px" />
-    <img alt="Mobile 4" src="https://raw.githubusercontent.com/enzoglauber/nlw-copa/main/mobile/src/assets/previews/Screenshot%202022-11-28%20at%2009.09.26.png" width="200px" />
-    <img alt="Web" src="https://raw.githubusercontent.com/enzoglauber/nlw-copa/main/web/assets/preview.png" width="800px" />
+    <img alt="Mobile 1" src="https://raw.githubusercontent.com/enzoglauber/nlw-copa/master/mobile/src/assets/previews/Screenshot%202022-11-28%20at%2009.08.34.png" width="200px" />
+    <img alt="Mobile 2" src="https://raw.githubusercontent.com/enzoglauber/nlw-copa/master/mobile/src/assets/previews/Screenshot%202022-11-28%20at%2009.08.46.png" width="200px" />
+    <img alt="Mobile 3" src="https://raw.githubusercontent.com/enzoglauber/nlw-copa/master/mobile/src/assets/previews/Screenshot%202022-11-28%20at%2009.09.21.png" width="200px" />
+    <img alt="Mobile 4" src="https://raw.githubusercontent.com/enzoglauber/nlw-copa/master/mobile/src/assets/previews/Screenshot%202022-11-28%20at%2009.09.26.png" width="200px" />
 </p>
 
 
@@ -51,7 +51,7 @@
   <tr>
     <td align="center">
       <a href="http://github.com/enzoglauber/">
-        <img src="https://avatars.githubusercontent.com/u/5755754?s=96&v=4" width="100px;" alt="Henrique Tavares"/>
+        <img src="https://avatars.githubusercontent.com/u/5755754?s=96&v=4" width="100px;" alt="Enzo Glauber"/>
         <br />
         <sub>
           <b>Enzo Glauber</b>
