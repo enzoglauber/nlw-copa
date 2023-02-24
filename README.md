@@ -1,42 +1,79 @@
-server
-  npm init -y
-  npm i typescript -D
-  npx tsc --init
-  npm i fastify
-  npm i @fastify/cors
-  npm i tsx -D // compila e executa
+<p align="center">
+   <img src="https://raw.githubusercontent.com/enzoglauber/nlw-copa/8ba02fc914bba835e2e8c90358957a0e01a47480/assets/logo.svg" alt="NLW Copa" width="180"/>
+</p>
 
-  npm i prisma -D
-  npm i @prisma/client
-  npx prisma init --datasource-provider SQLite
-  npx prisma migrate dev
-  npm i prisma-erd-generator @mermaid-js/mermaid-cli -D
-  npm run prisma generate
-  npm run prisma db seed
+<p align="center">
+   <a href="https://www.linkedin.com/in/enzoglauber/">
+      <img alt="Henrique Tavares" src="https://img.shields.io/badge/-Henrique Tavares-f7dd43?style=flat&logo=Linkedin&logoColor=white" />
+   </a>
+ <img alt="Repository size" src="https://img.shields.io/github/repo-size/enzoglauber/nlw-copa?color=f7dd43">
 
-web
-  npx create-next-app@latest --use-npm
-  npm i -D tailwindcss postcss autoprefixer
-  npx tailwindcss init -p 
+  <a aria-label="Last Commit" href="https://github.com/enzoglauber/nlw-copa/commits/master">
+    <img alt="Last commit on GitHub" src="https://img.shields.io/github/last-commit/enzoglauber/nlw-copa?color=f7dd43">
+  </a>
+  <a href="https://github.com/enzoglauber/nlw-copa/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/enzoglauber/nlw-copa?color=f7dd43">
+  </a>
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-f7dd43">
+</p>
 
-mobile
-  npm i -g expo-cli
-  npx create-expo-app nlw-copa
-  expo start
+> **NLW Copa** é um projeto da Rocketseat onde construimos uma aplicação de um **Bolão para a Copa do Mundo de 2022**. Essa aplicação é responsável por criar os grupos dos bolões, listar os bolões, entrar em um bolão, etc. Utilizando tecnologias como: **React** para Web, **React Native** para Mobile e **NodeJS** para o Server. 🚀 💜
 
-  npm i native-base
-  expo install react-native-svg
-  expo install react-native-safe-area-context@3.3.2
-  npx expo install expo-font @expo-google-fonts/roboto
-  npm i react-native-svg-transformer
-  npm i @react-navigation/native
-  
-  npx expo install expo-auth-session expo-random
-  npx expo install expo-web-browser 
+# :pushpin: Conteúdo
 
-  npm i --save phosphor-react-native
+* [Preview](#framed_picture-preview)
+* [Projetos](#computer-projetos)
+* [Autores](#computer-autores)
+* [Licença](#closed_book-licença)
 
-  https://docs.expo.dev/versions/latest/sdk/auth-session/#what-authexpoio-does-for-you
-  https://auth.expo.io/@your-username/your-app-slug
-  @enzoglauber
-  expo login
+
+# :framed_picture: Preview
+
+<p align="center">
+    <img alt="Mobile 1" src="https://raw.githubusercontent.com/enzoglauber/nlw-copa/main/mobile/src/assets/previews/Screenshot%202022-11-28%20at%2009.08.34.png" width="200px" />
+    <img alt="Mobile 2" src="https://raw.githubusercontent.com/enzoglauber/nlw-copa/main/mobile/src/assets/previews/Screenshot%202022-11-28%20at%2009.08.46.png" width="200px" />
+    <img alt="Mobile 3" src="https://raw.githubusercontent.com/enzoglauber/nlw-copa/main/mobile/src/assets/previews/Screenshot%202022-11-28%20at%2009.09.21.png" width="200px" />
+    <img alt="Mobile 4" src="https://raw.githubusercontent.com/enzoglauber/nlw-copa/main/mobile/src/assets/previews/Screenshot%202022-11-28%20at%2009.09.26.png" width="200px" />
+    <img alt="Web" src="https://raw.githubusercontent.com/enzoglauber/nlw-copa/main/web/assets/preview.png" width="800px" />
+</p>
+
+
+# :computer: Projetos
+
+* [💾 Server](https://github.com/enzoglauber/nlw-copa/tree/main/server)
+* [🌐 Web](https://github.com/enzoglauber/nlw-copa/tree/main/web)
+* [📱 Mobile](https://github.com/enzoglauber/nlw-copa/tree/main/mobile)
+
+
+# :computer: Autores
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="http://github.com/enzoglauber/">
+        <img src="https://avatars.githubusercontent.com/u/5755754?s=96&v=4" width="100px;" alt="Henrique Tavares"/>
+        <br />
+        <sub>
+          <b>Enzo Glauber</b>
+        </sub>
+       </a>
+       <br />
+       <a href="https://www.linkedin.com/in/enzoglauber/" title="Linkedin">enzoglauber</a>
+    </td>
+    <td align="center">
+      <a href="http://github.com/rocketseat/">
+        <img src="https://avatars.githubusercontent.com/u/28929274?s=200&v=4" width="100px;" alt="Logo da Rocketseat"/>
+        <br />
+        <sub>
+          <b>Rocketseat</b>
+        </sub>
+       </a>
+       <br />
+       <a href="http://github.com/rocketseat/" title="Linkedin">@rocketseat</a>
+    </td>
+  </tr>
+</table>
+
+# :closed_book: Licença
+
+Esse projeto é possui [MIT license](./LICENSE).
